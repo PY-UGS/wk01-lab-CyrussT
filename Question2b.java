@@ -19,6 +19,9 @@ public class Question2b {
             case "CSC1010":
                 System.out.println("Computer Networks");
                 break;
+            default:
+                System.out.println("Unknown Module.");
+                break;
         }
     }
 
